@@ -1,0 +1,56 @@
+.preHeader{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        margin: 1% 0;
+    }
+
+    a{
+        color: gray;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+    h1{
+        font-weight: 400;
+        letter-spacing: -0.035em;
+        margin: 10% 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.headerImageAndTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1.6em;
+}
+
+.headerImage{
+    width: 100%;
+
+    img{
+        width: 100%;
+    }
+}
