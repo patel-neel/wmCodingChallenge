@@ -1,0 +1,58 @@
+.newArrivals{
+    display: flex;
+    justify-content: center;
+
+    .newArrivalsImage{
+        width: 620px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+.getYourCupons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        text-align: center;
+        color: grey;
+    }
+}
+
+a.linkButton{
+    background-color: #1393EA;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.shoppingGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gridBox{
+        width: 305px;
+        // height: 350px;
+    }
+
+    .rowOne,
+    .rowTwo,
+    .rowThree{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
