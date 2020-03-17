@@ -1,9 +1,13 @@
+header{
+    margin: 1% 0;
+}
 .preHeader{
     display: flex;
     justify-content: space-between;
 
     p{
         margin: 1% 0;
+        font-size: .8rem;
     }
 
     a{
@@ -16,6 +20,11 @@
     }
 }
 
+.decoLine{
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+}
 
 .mainHeader{
     display: flex;
@@ -45,6 +54,7 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.6em;
+    margin: 4% 0 2% 0;
 }
 
 .headerImage{

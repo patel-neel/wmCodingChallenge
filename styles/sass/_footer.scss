@@ -1,0 +1,72 @@
+footer{
+    margin-top: 5%;
+}
+
+
+.socialLinks{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    a{
+        color: black;
+        font-size: 2.6rem;
+
+        &:hover{
+            color: gray;
+        }
+    }
+}
+
+.footerContactSection{
+    p{
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: .9rem;
+        margin-top: 4%;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+
+}
+
+.footerEmailInfo,
+.footerMailingAddress{
+    margin: 2% 0;
+    p{
+        margin: 0;
+        font-size: .7rem;
+        line-height: 1rem;
+    }
+}
+
+.unsubscribe{
+    margin: 0 auto;
+    p{
+        font-size: .7rem;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+
+        &:hover{
+            color: tomato;
+        }
+    }
+}
+
+.companyLogo{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+
+}

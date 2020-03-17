@@ -245,6 +245,14 @@ img {
   max-width: 650px;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 1% 0;
+}
+
 .preHeader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +264,7 @@ img {
 
 .preHeader p {
   margin: 1% 0;
+  font-size: .8rem;
 }
 
 .preHeader a {
@@ -265,6 +274,12 @@ img {
 
 .preHeader a:hover {
   text-decoration: underline;
+}
+
+.decoLine {
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 1px solid lightgray;
 }
 
 .mainHeader {
@@ -306,6 +321,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1.6em;
+  margin: 4% 0 2% 0;
 }
 
 .headerImage {
@@ -333,6 +349,11 @@ h2 {
   width: 100%;
 }
 
+p {
+  text-align: center;
+  color: grey;
+}
+
 .getYourCupons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,15 +368,21 @@ h2 {
 }
 
 .getYourCupons p {
-  text-align: center;
-  color: grey;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 a.linkButton {
   background-color: #1393EA;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 75%;
+  height: 60px;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'Roboto', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -363,6 +390,13 @@ a.linkButton {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a.linkButton:hover {
+  background-color: #1186d4;
 }
 
 .shoppingGrid {
@@ -380,6 +414,27 @@ a.linkButton {
 
 .shoppingGrid .gridBox {
   width: 305px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shoppingGrid .gridBox p {
+  font-size: 14px;
+  padding: 3%;
+  line-height: 18px;
+}
+
+.shoppingGrid .gridBox a {
+  height: 40px;
+  font-size: 20px;
 }
 
 .shoppingGrid .rowOne,
@@ -392,4 +447,81 @@ a.linkButton {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100%;
+  margin: 1% 0;
+}
+
+footer {
+  margin-top: 5%;
+}
+
+.socialLinks {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.socialLinks a {
+  color: black;
+  font-size: 2.6rem;
+}
+
+.socialLinks a:hover {
+  color: gray;
+}
+
+.footerContactSection p {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: .9rem;
+  margin-top: 4%;
+}
+
+.footerContactSection p a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerContactSection p a:hover {
+  color: blue;
+}
+
+.footerEmailInfo,
+.footerMailingAddress {
+  margin: 2% 0;
+}
+
+.footerEmailInfo p,
+.footerMailingAddress p {
+  margin: 0;
+  font-size: .7rem;
+  line-height: 1rem;
+}
+
+.unsubscribe {
+  margin: 0 auto;
+}
+
+.unsubscribe p {
+  font-size: .7rem;
+}
+
+.unsubscribe a {
+  text-decoration: none;
+  color: grey;
+}
+
+.unsubscribe a:hover {
+  color: tomato;
+}
+
+.companyLogo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
 }
