@@ -245,6 +245,12 @@ img {
   max-width: 650px;
 }
 
+@media (max-width: 650px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
@@ -372,6 +378,13 @@ p {
   line-height: 24px;
 }
 
+@media (max-width: 650px) {
+  .getYourCupons p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 a.linkButton {
   background-color: #1393EA;
   border-radius: 5px;
@@ -432,6 +445,12 @@ a.linkButton:hover {
   line-height: 18px;
 }
 
+@media (max-width: 500px) {
+  .shoppingGrid .gridBox p {
+    font-size: .75rem;
+  }
+}
+
 .shoppingGrid .gridBox a {
   height: 40px;
   font-size: 20px;
@@ -448,6 +467,38 @@ a.linkButton:hover {
           justify-content: space-evenly;
   width: 100%;
   margin: 1% 0;
+}
+
+@media (max-width: 650px) {
+  .shoppingGrid .rowTwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 650px) {
+  .shoppingGrid .rowThree {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .shoppingGrid .gridBoxThree,
+  .shoppingGrid .gridBoxSix {
+    width: calc(100% / 2);
+  }
 }
 
 footer {

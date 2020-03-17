@@ -25,9 +25,13 @@ p{
     p{
         font-size: 15px;
         line-height: 24px;
+
+        @include forMobile{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
     }
-
-
 
 }
 
@@ -74,6 +78,10 @@ a.linkButton:hover{
             font-size: 14px;
             padding: 3%;
             line-height: 18px;
+
+            @include forSmallMobile{
+                font-size: .75rem;
+            }
         }
 
         a{
@@ -90,6 +98,29 @@ a.linkButton:hover{
         width: 100%;
         margin: 1% 0;
     }
+
+    .rowTwo{
+        @include forMobile{
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5%;
+        }
+    }
+
+    .rowThree{
+        @include forMobile{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    }
+
+    .gridBoxThree,
+    .gridBoxSix{
+        @include forMobile{
+            width: calc(100% / 2);
+        }
+    }
+
 
 
 
